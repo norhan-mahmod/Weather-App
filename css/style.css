@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color : #1e202b;
+    --second-color : #009ad8;
+}
+
+/*navbar-section*/
+nav.navbar{
+    background-color: var(--main-color) !important;
+}
+ul.navbar-nav li{
+    transition: all 1s;
+}
+ul.navbar-nav li:hover{
+    border: 2px solid var(--second-color);
+}
+ul.navbar-nav li:hover a{
+    color: var(--second-color) !important;
+}
+
+/*search-section*/
+section{
+    background-color: var(--main-color);
+}
+section div.img-banner{
+    background-image: url("../images/banner.png");
+    background-size: cover;
+}
+div.form-data{
+    width: 90%;
+}
+div.form-data input{
+    background-color: var(--main-color);
+}
+div.form-data a{
+    right: 1%;
+    bottom: 15%;
+}
+div.weather{
+    width: 90%;
+    transform: translateY(-40%);
+}
+div.weather div.card-1 header{
+    background-color: #2d303d;
+    color: #b1c1c8;
+}
+div.weather div.card-1{
+    background-color: #323544;
+}
+div.weather div.card-1 div.card-content h1{
+    font-size: 90px;
+}
+div.weather div.card-2 header{
+    background-color: #222531;
+    color: #b1c1c8;
+}
+div.weather div.card-2{
+    background-color: #262936;
+}
+/*footer-section*/
+footer.footer{
+    background-color: #262936;
+}
+footer.footer div.icons a{
+    width: 40px;
+    height: 40px;
+    background-color: var(--main-color);
+    transition: all 1s;
+}
+footer.footer div.icons a:hover{
+    background-color: var(--second-color);
+    color: white !important;
+}

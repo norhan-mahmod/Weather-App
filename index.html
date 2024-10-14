@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather</title>
+        <link rel="stylesheet" href="./css/all.min.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+
+        <!--navbar-start-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container p-4 my-3">
+              <a class="navbar-brand text-white" href="#">
+                <img src="./images/logo.png" alt="logo">  Weather
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item mx-2 px-4 rounded-5">
+                    <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item mx-2 px-4 rounded-5">
+                    <a class="nav-link text-white" href="#">News</a>
+                  </li>
+                  <li class="nav-item mx-2 px-4 rounded-5">
+                    <a class="nav-link text-white" href="#">Live cameras</a>
+                  </li>
+                  <li class="nav-item mx-2 px-4 rounded-5">
+                    <a class="nav-link text-white" href="#">Photos</a>
+                  </li>
+                  <li class="nav-item mx-2 px-4 rounded-5">
+                    <a class="nav-link text-white" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!--navbar-end-->
+
+        <!--search-start-->
+        <section class="vh-100 mb-0 py-4">
+            <div class="img-banner h-50 overflow-auto">
+                <div class="container overflow-auto my-3">
+                    <div class="form-data mx-auto position-relative my-5">
+                        <input type="text" class="search-inp text-white w-100 p-3 rounded-5 border-0" placeholder="Find Your Location">
+                        <a class="btn btn-primary position-absolute p-2 px-5 rounded-5" href="#" role="button">Find</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="weather mx-auto row gx-0">
+                    <div class="card-1 col-4 rounded-start-4">
+                        <header class="d-flex justify-content-between align-items-center px-2">
+                            <p class="m-2">Monday</p>
+                            <p class="m-2">14 October</p>
+                        </header>
+                        <div class="card-content p-3">
+                            <h4 class="text-secondary">Cairo</h4>
+                            <h1 class="text-white">25.6 <sup>o</sup> C</h1>
+                            <div class="w-25">
+                                <img src="./images/icon.webp" class="w-100" alt="icon">
+                            </div>
+                            <h5 class="text-primary">Clear</h5>
+                        </div>
+                        <footer class="d-flex text-secondary pb-2">
+                          <p class="px-2">
+                            <i class="fa-solid fa-umbrella"></i>
+                            20%
+                          </p>
+                          <p class="px-2">
+                            <i class="fa-solid fa-wind"></i>
+                            18km/h
+                          </p>
+                          <p class="px-2">
+                            <i class="fa-regular fa-compass"></i>
+                            East
+                          </p>
+                        </footer>
+                    </div>
+                    <div class="card-2 col-4">
+                      <header class="d-flex justify-content-center align-items-center px-2">
+                          <p class="m-2">Monday</p>
+                      </header>
+                      <div class="card-content p-3">
+                          <div class="w-50 text-center mx-auto">
+                            <img src="./images/icon.webp" class="w-50" alt="icon">
+                            <h3 class="text-white">31.3<sup>o</sup>C</h3>
+                            <p class="text-secondary">22<sup>o</sup></p>
+                            <h5 class="text-primary">Sunny</h5>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="card-1 col-4 rounded-end-4">
+                    <header class="d-flex justify-content-center align-items-center px-2">
+                        <p class="m-2">Monday</p>
+                    </header>
+                    <div class="card-content p-3">
+                        <div class="w-50 text-center mx-auto">
+                          <img src="./images/icon.webp" class="w-50" alt="icon">
+                          <h3 class="text-white">31.3<sup>o</sup>C</h3>
+                          <p class="text-secondary">22<sup>o</sup></p>
+                          <h5 class="text-primary">Sunny</h5>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!--search-end-->
+
+        <!--footer-start-->
+        <footer class="footer py-4">
+          <div class="container d-flex my-4 justify-content-around">
+            <div class="w-50">
+              <div class="form-data w-100 position-relative">
+                <input type="text" class="w-100 p-3 rounded-5 border-0" placeholder="Find Your Location">
+                <a class="btn btn-primary position-absolute p-2 px-3 rounded-5" href="#" role="button">Subscribe</a>
+              </div>
+              <p class="text-secondary my-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+            <div class="w-25 d-flex icons">
+              <a href="#" class="px-3 py-2 mx-2 rounded-circle text-primary">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#" class="px-3 py-2 mx-2 rounded-circle text-primary">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#" class="px-3 py-2 mx-2 rounded-circle text-primary">
+                <i class="fa-brands fa-google"></i>
+              </a>
+              <a href="#" class="px-3 py-2 mx-2 rounded-circle text-primary">
+                <i class="fa-brands fa-pinterest"></i>
+              </a>
+            </div>
+          </div>
+        </footer>
+        <!--footer-end-->
+
+        <script src="./js/all.min.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
